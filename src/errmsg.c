@@ -21,5 +21,6 @@
 
 void main(){
 
+	printf("Hi momo! ");
 	return;
 }
