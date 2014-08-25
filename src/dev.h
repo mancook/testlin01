@@ -32,4 +32,9 @@
 #define CHUYU_LOG_MSG
 
 
+#define __ZIGBEE__
+typedef unsigned char       uint8;
+typedef unsigned short      uint16;
+
+
 #endif //__DEV_H__
