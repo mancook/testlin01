@@ -1,13 +1,13 @@
 /*
  * =====================================================================================
  *
- *       Filename:  errmsg.c
+ *       Filename:  dev.h
  *
  *    Description:  
  *
  *
  *        Version:  1.0
- *        Created:  08/25/2014 07:47:50 AM
+ *        Created:  08/25/2014 09:12:29
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -16,17 +16,20 @@
  *
  * ---------------  HISTORY ------------------------------------------------------------
  *
- *      2014-08-25  1.0 created in master branch;
+ *      2014-08-25  1.0 created in branch 'dev-ck'
  *
- *      2014-08-25  1.1 edit in branch 'dev-ck';
+ *
+ *
  *
  * =====================================================================================
  */
 
 
+#ifndef  __DEV_H__
+#define  __DEV_H__
 
-void main(){
 
-	printf("Hi momo! ");
-	return;
-}
+#define CHUYU_LOG_MSG
+
+
+#endif //__DEV_H__
